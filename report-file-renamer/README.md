@@ -1,17 +1,25 @@
-# Report File Renamer
+# 🗂 Report File Renamer
 
-Batch rename messy files to clean format: YYYY-MM-DD_Report_###.ext
+Batch renames messy report files to a clean format: YYYY-MM-DD_Report_###.ext
 
-## Features
-- Renames files based on today's date
-- Outputs into 'renamed_reports' folder
+## ✅ Features
 
-## How to Run
+- Renames files using today’s date
+- Writes output to a separate folder
+
+## ▶️ How to Run
+
 ```bash
 python file_renamer.py
 ```
 
-## Files
-- raw_reports/ (input files)
-- renamed_reports/ (output files)
+## 📁 Files
+
+- raw_reports/ (input)
+- renamed_reports/ (output)
 - file_renamer.py
+- example.png (file naming preview)
+
+## 📸 Preview
+
+![example](example.png)
